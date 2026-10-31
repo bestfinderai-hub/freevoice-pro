@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+.venv
+venv/
+*.pkl
+*.onnx
+*.pt
+*.pth
+build/
+dist/
+*.egg-info/
+
+# Node
+node_modules/
+.next/
+out/
+.env.local
+.env.*.local
+
+# Audio test files
+*.wav
+*.mp3
+*.flac
+*.aiff
+!tests/fixtures/*.wav
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
